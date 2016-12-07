@@ -15,12 +15,7 @@
 
 #define BACKLOG 10     // how many pending connections queue will hold
 
-//function that does something we don't know
 
-void sigchld_handler(int s)
-{
-    while(waitpid(-1, NULL, WNOHANG) > 0);
-}
 
 
 void *get_in_addr(struct sockaddr *sa)
