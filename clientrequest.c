@@ -32,7 +32,7 @@ int main()
 	struct addrinfo hints, *servinfo, *p;
 	int rv;
 	char s[INET6_ADDRSTRLEN];
-	char hostname[] = "www.4or6.";
+	char hostname[] = "www.4or6.com";
 	FILE *htmlfile = fopen("index.html", "w+");
 	
 	
