@@ -1,7 +1,3 @@
-//IPv6 Client
-//Florea Adina, Szasz Patricia
-//TST Engleza gr. 2341
-
 
 #include <stdio.h>
 #include <stdlib.h>
